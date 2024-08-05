@@ -57,8 +57,6 @@ dependencies:
     - mne_bids
     - ipympl
     - pyfftw
-    - pliers
-    - duecredit
     - git-credential-helpers
     - cloudpathlib[s3,gs,azure]
     - colorspacious
