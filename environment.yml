@@ -68,3 +68,4 @@ dependencies:
     - git+https://github.com/kjamison/krakencoder.git@864f5f9
     - git+https://github.com/rmarkello/abagen.git@dc4a007
     - ieegprep
+    - llvmlite==0.38.1
