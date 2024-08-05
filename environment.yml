@@ -67,5 +67,4 @@ dependencies:
     - platformdirs
     - git+https://github.com/kjamison/krakencoder.git@571c77f12266ee8685222399e5eee80c8a4cdea7
     - git+https://github.com/rmarkello/abagen.git@dc4a007
-    - git+https://github.com/yeatmanlab/afq-insight.git@cbf13cf
     - ieegprep
