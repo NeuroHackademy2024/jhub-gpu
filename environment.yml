@@ -61,7 +61,7 @@ dependencies:
     - pliers
     - duecredit
     - git-credential-helpers
-    - cloudpathlib[s3,gz,azure]
+    - cloudpathlib[s3,gs,azure]
     - colorspacious
     - requests
     - platformdirs
