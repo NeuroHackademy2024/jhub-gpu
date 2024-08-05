@@ -39,6 +39,7 @@ dependencies:
   - nitime
   - statsmodels
   - openneuro-py
+  - dask
   - pip:
     - best-toolbox
     - nbgitpuller
@@ -49,7 +50,6 @@ dependencies:
     - dipy
     - mne
     - nilearn
-    - dask[complete]
     - nimare
     - osfclient
     - line_profiler
