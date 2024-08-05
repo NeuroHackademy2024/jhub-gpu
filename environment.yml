@@ -28,9 +28,6 @@ dependencies:
   - jax
   - numba
   - cython
-  - pytorch==2.3.1
-  - torchvision==0.18
-  - pytorch::cpuonly
   - dcm2niix
   - openneuro-py
   - ipyvolume
