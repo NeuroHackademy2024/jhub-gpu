@@ -13,7 +13,6 @@ dependencies:
   - awscli
   - datalad
   - datalad-container
-  - singularity
   - altair
   - seaborn
   - graphviz
