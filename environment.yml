@@ -7,8 +7,7 @@ channels:
 
 dependencies:
   - jupyter_contrib_nbextensions==0.5.1
-  - jupyterhub-base==2.3.1
-  - jupyterhub-singleuser=2.3.1
+  - jupyterhub-singleuser
   - tqdm
   - s3fs
   - awscli
