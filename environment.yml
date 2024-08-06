@@ -7,14 +7,12 @@ channels:
 
 dependencies:
   - jupyter_contrib_nbextensions==0.5.1
-  - jupyterhub-base==2.3.1
-  - jupyterhub-singleuser=2.3.1
+  - jupyterhub-singleuser
   - tqdm
   - s3fs
   - awscli
   - datalad
   - datalad-container
-  - singularity
   - altair
   - seaborn
   - graphviz
@@ -28,21 +26,4 @@ dependencies:
   - statsmodels
   - openneuro-py
   - dask
-  - pip:
-    - nbgitpuller
-    - pybids
-    - neuropythy>=0.12.15
-    - nilearn
-    - line_profiler
-    - memory_profiler
-    - black
-    - ipympl
-    - pyfftw
-    - git-credential-helpers
-    - cloudpathlib[s3,gs,azure]
-    - colorspacious
-    - requests
-    - platformdirs
-    - git+https://github.com/kjamison/krakencoder.git@864f5f9
-    - git+https://github.com/rmarkello/abagen.git@dc4a007
-    - ieegprep
+  - pip
