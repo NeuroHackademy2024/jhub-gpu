@@ -4,3 +4,6 @@ COPY --chown=1000:1000 environment.yml /tmp/environment.yml
 RUN conda env create -f /tmp/environment.yml && \
     conda clean --all --yes && \
     rm /tmp/environment.yml
+
+COPY --chown=1000:1000 requirements.txt /tmp/requirements.txt
+RUN pip install --no-cache -r /tmp/requirements.txt
